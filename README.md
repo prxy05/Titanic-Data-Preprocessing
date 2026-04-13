@@ -1,7 +1,5 @@
 # 🚢 Titanic Data Cleaning & Preprocessing
 
-### 📌 Internship Task 1 – Submitted by Priya Vishwakarma
-
 This project involves preprocessing the Titanic dataset to prepare it for machine learning tasks. The steps followed ensure the dataset is clean, consistent, and ready for analysis or modeling.
 
 ---
@@ -39,4 +37,4 @@ This project involves preprocessing the Titanic dataset to prepare it for machin
 This task helped in understanding real-world data cleaning steps, including missing value imputation, categorical encoding, feature scaling, and outlier handling — all of which are crucial in the ML pipeline.
 
 ---
-### (Submitted as part of the AI & ML Internship Program)
+
