@@ -1,4 +1,4 @@
-# Titanic-Data-Preprocessing
+# Titanic Data Preprocessing
 
 This project focuses on **data cleaning and preprocessing** of the Titanic dataset to prepare it for machine learning tasks.
 
