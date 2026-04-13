@@ -1,40 +1,32 @@
-# 🚢 Titanic Data Cleaning & Preprocessing
+# Titanic-Data-Preprocessing
 
-This project involves preprocessing the Titanic dataset to prepare it for machine learning tasks. The steps followed ensure the dataset is clean, consistent, and ready for analysis or modeling.
+This project focuses on **data cleaning and preprocessing** of the Titanic dataset to prepare it for machine learning tasks.
 
----
+## What's Included
 
-## ✅ Features Covered:
-- 🧼 Handling missing values (Age, Embarked)
-- 🔁 Encoding categorical features (Sex, Embarked)
-- 📏 Feature scaling using StandardScaler (Age, Fare)
-- 📊 Outlier detection and removal using boxplots
-- 💾 Export of the cleaned dataset
+- `TitanicDataset.csv` – Input dataset  
+- `preprocessing.py` – Data cleaning script  
+- `cleaned_titanic.csv` – Processed dataset  
+- `fare_outliers.png` – Outlier visualization  
 
----
+## Tools & Libraries
 
-## 📂 Files Included
-| File | Description |
-|------|-------------|
-| `preprocessing.py` | Main Python script |
-| `TitanicDataset.csv` | Input dataset |
-| `cleaned_titanic.csv` | Output cleaned dataset |
-| `fare_outliers.png` | Boxplot visualization of Fare outliers |
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- scikit-learn  
 
----
+## Key Steps
 
-## 🛠 Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- scikit-learn
+- Handled missing values (Age, Embarked)  
+- Encoded categorical features (Sex, Embarked)  
+- Applied feature scaling (Age, Fare)  
+- Detected and removed outliers  
 
----
+## How to Run
 
-## 🧠 Learning Outcome
-This task helped in understanding real-world data cleaning steps, including missing value imputation, categorical encoding, feature scaling, and outlier handling — all of which are crucial in the ML pipeline.
-
----
-
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+python preprocessing.py
